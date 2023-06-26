@@ -3,7 +3,6 @@
 <head>
     <title>Form Pengisian Data</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <style>
         .card-img-top {
             object-fit: cover;
@@ -51,7 +50,7 @@
             </div>
         </div>
     </div>
-    
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script>
         <?php if(isset($_GET['status'])) {
             $status = $_GET['status'];

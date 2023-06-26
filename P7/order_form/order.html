@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu-container">
+            <h2>Daftar Menu</h2>
+
+            <div id="menu-list">
+                <div class="menu-item">
+                    <span class="menu-name">Burger</span>
+                    <span class="menu-price">Rp 25,000</span>
+                    <div class="quantity">
+                        <button class="button minus-btn" onclick="decreaseQuantity(0)">-</button>
+                        <span class="quantity-value" id="quantity-0">0</span>
+                        <button class="button plus-btn" onclick="increaseQuantity(0)">+</button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <span class="menu-name">Pizza</span>
+                    <span class="menu-price">Rp 50,000</span>
+                    <div class="quantity">
+                        <button class="button minus-btn" onclick="decreaseQuantity(1)">-</button>
+                        <span class="quantity-value" id="quantity-1">0</span>
+                        <button class="button plus-btn" onclick="increaseQuantity(1)">+</button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <span class="menu-name">Lava Chicken</span>
+                    <span class="menu-price">Rp 40,000</span>
+                    <div class="quantity">
+                        <button class="button minus-btn" onclick="decreaseQuantity(2)">-</button>
+                        <span class="quantity-value" id="quantity-2">0</span>
+                        <button class="button plus-btn" onclick="increaseQuantity(2)">+</button>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div id="total-cost">
+                <h3>Total Cost: <span id="total-amount">Rp 0</span></h3>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

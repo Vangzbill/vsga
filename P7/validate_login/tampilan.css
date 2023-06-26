@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.image-container {
+    flex: 1;
+    text-align: center;
+}
+
+.form-container {
+    flex: 1;
+    margin-left: -10px;
+}
+
+.logo {
+    margin-left: 200px;
+    max-width: 750px;
+    height: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 95%;
+    padding: 5px;
+}
+
+input[type="submit"] {
+    margin-top: 2px;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
