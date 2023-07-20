@@ -144,6 +144,18 @@
             proceedDelete(null); 
         }
     }
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const deleteSuccess = urlParams.get('delete_success');
+
+    if (deleteSuccess === 'true') {
+        swal({
+            title: 'Sukses',
+            text: 'Data siswa berhasil dihapus!',
+            icon: 'success',
+            button: 'OK'
+        });
+    }
 </script>
 
 
