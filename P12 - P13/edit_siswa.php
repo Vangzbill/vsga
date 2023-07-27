@@ -100,7 +100,7 @@
         </form>
 
         <div class="back-button">
-            <a href="landing_page.html" class="btn btn-secondary">Kembali</a>
+            <a href="index.html" class="btn btn-secondary">Kembali</a>
         </div>
     </div>
 

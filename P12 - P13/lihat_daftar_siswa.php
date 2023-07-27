@@ -60,7 +60,7 @@
 <body>
     <div class="data-container">
         <div class="back-button">
-            <a href="landing_page.html" class="btn btn-secondary">Kembali</a>
+            <a href="index.html" class="btn btn-secondary">Kembali</a>
         </div>
         <h1>Daftar Siswa</h1>
         <div class="add-button">
